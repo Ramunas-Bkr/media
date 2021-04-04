@@ -4,23 +4,27 @@
                 <div class="container-fluid px-lg-5">
                     <nav class="py-4">
                         <div id="logo">
-                            <h1> <a href="index.html" class="editContent" style="outline: none; outline-offset: -2px; cursor: inherit; color: rgb(255, 255, 255); font-size: 40px; background-color: rgba(0, 0, 0, 0); font-family: &quot;Source Sans Pro&quot;, sans-serif;">DjangoMovie</a></h1>
+                            <h1> <a href="#" class="editContent">DjangoMovie</a></h1>
                         </div>
                         <label for="drop" class="toggle">Menu</label>
                         <input type="checkbox" id="drop">
                         <ul class="menu mt-2">
-                            <li class="active"><a href="index.html">Главная</a></li>
+                            <li class="active"><a href="#">Главная</a></li>
                             <li>
-                                <label for="drop-2" class="toggle">Категории <span class="fa fa-angle-down" aria-hidden="true" ></span> </label>
-                                <a href="#">Категории <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                <label for="drop-2" class="toggle">Категории
+                                    <span class="fa fa-angle-down" aria-hidden="true" ></span>
+                                </label>
+                                <a href="#">Категории
+                                    <span class="fa fa-angle-down" aria-hidden="true"></span>
+                                </a>
                                 <input type="checkbox" id="drop-2">
                                 <ul>
-                                    <li><a href="moviesingle.html">Фильмы</a></li>
-                                    <li><a href="moviesingle.html">Сериалы</a></li>
-                                    <li><a href="moviesingle.html">Мультфильмы</a></li>
+                                    <li><a href="#">Фильмы</a></li>
+                                    <li><a href="#">Сериалы</a></li>
+                                    <li><a href="#">Мультфильмы</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.html" style="color: rgb(255, 255, 255); font-weight: 700; text-transform: uppercase;">Вход</a></li>
+                            <li><a href="#" class="login">Вход</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -42,5 +46,19 @@
         background-color: rgba(0, 0, 0, 0);
         margin-top: 0;
         background-image: url(../assets/single-post-pic.jpg);
+    }
+    .editContent {
+        outline: none;
+        outline-offset: -2px;
+        cursor: inherit;
+        color: rgb(255, 255, 255);
+        font-size: 40px;
+        background-color: rgba(0, 0, 0, 0);
+        font-family: Source Sans Pro, sans-serif;
+    }
+    .login {
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        text-transform: uppercase;
     }
 </style>

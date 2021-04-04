@@ -1,14 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      
-    </div>
+    <Nav />
     <router-view/>
+    <Footer />
   </div>
 </template>
 
-<style lang="scss">
+<style>
   @import "assets/css/bootstrap.css";
   @import "assets/css/font-awesome.css";
-  @import "assets/css/style.css"
+  @import "assets/css/style.css";
 </style>
+
+<script>
+  import Nav from './components/Nav.vue';
+  import Footer from './components/Footer.vue';
+  export default {
+    components: {Nav, Footer}
+  }
+</script>
